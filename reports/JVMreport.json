@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verifying the login  with valid credentials",
+        "description": "",
+        "id": "verifying-the-adactin-web-page;verifying-the-login--with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on adactin login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user should enter the \"Jayanthan\" and \"password123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user should click the login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user verify sucess message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verifying the search hotel page",
+        "description": "",
+        "id": "verifying-the-adactin-web-page;verifying-the-search-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user select the \"Sydney\" and \"Hotel Creek\" and \"Standard\" and \"1 - One\" and \"1 - One\" and \"1 - One\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user should click search button",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verifying the select hotel page",
+        "description": "",
+        "id": "verifying-the-adactin-web-page;verifying-the-select-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "user should click checkbox",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "user should click continue button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Verifying the search hotel page",
+        "description": "",
+        "id": "verifying-the-adactin-web-page;verifying-the-search-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "user enter the \"Jayanthan\" and \"Chandran\",\"Chennai\",\"7535345345353567\",\"VISA\",\"January\" , \"2022\" \"345\",",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "user should click book now button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the adactin web page",
+    "description": "",
+    "id": "verifying-the-adactin-web-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/Jayanthan/eclipse-workspace/Cucumber/src/test/resources/Feature/Adactin.feature",
+    "tags": []
+  }
+]
