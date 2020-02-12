@@ -9,7 +9,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = { "\\src\\test\\resources" }, glue = {"com.stepdefinition" }, monochrome = true,plugin= {"json:reports\\JVMreport.json"})
+@CucumberOptions(features = { "src\\test\\resources" }, glue = {"com.stepdefinition" }, monochrome = true,plugin= {"json:reports\\JVMreport.json"})
 public class TestRunner {
 	@AfterClass
 	public static void reportGeneration() {
