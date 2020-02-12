@@ -98,13 +98,13 @@ public class LoginSteps extends LibGlobal {
 	@Then("user should click book now button")
 	public void user_should_click_book_now_button() throws InterruptedException {
 		
- 		BookHotel bh=new BookHotel();
- 		OrderNo ono=new OrderNo();
- 		click(bh.getBookNow());
- 		Thread.sleep(3000);
-		ono.getOrderNo();
-		String ono1 = ono.getOrderNo().getAttribute("value");
-		System.out.println(ono1);
+// 		BookHotel bh=new BookHotel();
+// 		OrderNo ono=new OrderNo();
+// 		click(bh.getBookNow());
+// 		Thread.sleep(3000);
+//		ono.getOrderNo();
+//		String ono1 = ono.getOrderNo().getAttribute("value");
+//		System.out.println(ono1);
 
 	}
 
