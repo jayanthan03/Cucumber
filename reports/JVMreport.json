@@ -1,0 +1,243 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verifying the login  with valid credentials",
+        "description": "",
+        "id": "verifying-the-adactin-web-page;verifying-the-login--with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14743842400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on adactin login page",
+            "match": {
+              "location": "LoginSteps.browserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 406834700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter the \"Jayanthan\" and \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jayanthan\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 38
+                }
+              ],
+              "location": "LoginSteps.loginDetails(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3113899000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click the login button",
+            "match": {
+              "location": "LoginSteps.loginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12370500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify sucess message",
+            "match": {
+              "location": "LoginSteps.sucessmessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verifying the search hotel page",
+        "description": "",
+        "id": "verifying-the-adactin-web-page;verifying-the-search-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 968572200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user select the \"Sydney\" and \"Hotel Creek\" and \"Standard\" and \"1 - One\" and \"1 - One\" and \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 90
+                }
+              ],
+              "location": "LoginSteps.user_select_the_and_and_and_and_and(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 803835200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should click search button",
+            "match": {
+              "location": "LoginSteps.user_should_click_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verifying the select hotel page",
+        "description": "",
+        "id": "verifying-the-adactin-web-page;verifying-the-select-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87574600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should click checkbox",
+            "match": {
+              "location": "LoginSteps.user_should_click_checkbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 946780500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should click continue button",
+            "match": {
+              "location": "LoginSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Verifying the search hotel page",
+        "description": "",
+        "id": "verifying-the-adactin-web-page;verifying-the-search-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1134695400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter the \"Jayanthan\" and \"Chandran\",\"Chennai\",\"7535345345353567\",\"VISA\",\"January\" , \"2022\" \"345\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jayanthan\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Chandran\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"7535345345353567\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"January\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"345\"",
+                  "offset": 97
+                }
+              ],
+              "location": "LoginSteps.user_enter_the_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should click book now button",
+            "match": {
+              "location": "LoginSteps.user_should_click_book_now_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the adactin web page",
+    "description": "",
+    "id": "verifying-the-adactin-web-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Adactin.feature",
+    "tags": []
+  }
+]
